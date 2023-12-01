@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "behavioral", "behavioral", "{7569AAB9-CACD-4AD8-BD1A-47D6BFC5B6E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "creational", "creational", "{B7E6A5D7-9AB7-43B2-BB5C-844426FEC9E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "structural", "structural", "{2B2A87EE-C9C6-4152-80EF-A5AD6C6354AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoofPatterns.RulePattern", "behavioral\RoofPatterns.RulePattern\RoofPatterns.RulePattern.csproj", "{ADF4D650-F3E2-4857-8014-7E33498BA065}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ADF4D650-F3E2-4857-8014-7E33498BA065} = {7569AAB9-CACD-4AD8-BD1A-47D6BFC5B6E1}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADF4D650-F3E2-4857-8014-7E33498BA065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF4D650-F3E2-4857-8014-7E33498BA065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF4D650-F3E2-4857-8014-7E33498BA065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF4D650-F3E2-4857-8014-7E33498BA065}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
