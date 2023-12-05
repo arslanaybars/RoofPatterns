@@ -22,7 +22,6 @@ public class CommissionCalculator
                 .Select(r => r!))
             .ToList();
 
-
         // airline commission rules
         var engine = new CommissionRuleEngine(rules);
 

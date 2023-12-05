@@ -15,11 +15,6 @@ public class CommissionRuleEngine
     {
         bool isApplicable = _commissionRules.All(rule => rule.IsApplicable(flight));
 
-        if (isApplicable)
-        {
-            return commissionRule.Price;            
-        }
-
-        return 0;
+        return isApplicable ? commissionRule.Price : 0;
     }
 }

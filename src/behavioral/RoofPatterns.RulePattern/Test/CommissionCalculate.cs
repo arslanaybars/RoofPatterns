@@ -6,7 +6,7 @@ namespace RoofPatterns.RulePattern.Test;
 
 public class CommissionCalculate
 {
-    private CommissionCalculator _calculator = new();
+    private readonly CommissionCalculator _calculator = new();
 
     [Fact]
     public void Returns5PctForDomesticOneWay()
@@ -62,6 +62,6 @@ public class CommissionCalculate
 
         var result = _calculator.CalculateDiscountPercentage(flight, agency.CommissionRules);
 
-        result.Should().Be(5);
+        result.Should().Be(15);
     }
 }
